@@ -1,0 +1,22 @@
+{
+  "name": "ip-address",
+  "homepage": "https://danya0ryaba.github.io/ip-address",
+  "version": "1.22.19",
+  "description": "ip_addres",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --out-dir=build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": "not",
+  "author": "ryabenkov",
+  "license": "not",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
